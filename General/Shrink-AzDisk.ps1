@@ -1,9 +1,8 @@
 # Variables
-$DiskID = ""# eg. "/subscriptions/203bdbf0-69bd-1a12-a894-a826cf0a34c8/resourcegroups/rg-server1-prod-1/providers/Microsoft.Compute/disks/Server1-Server1"
-$VMName = "VM-Server1"
+$DiskID = "/subscriptions/de08d926-f053-43e0-ac03-4f7b719436e7/resourceGroups/PC_group_02130838/providers/Microsoft.Compute/disks/PC_OsDisk_1_d5a07782f7a9433dbfb82dddab07ad61"
+$VMName = "PC"
 $DiskSizeGB = 32
-$AzSubscription = "Prod Subscription"
-
+$AzSubscription = "Azure for Students
 # Script
 # Provide your Azure admin credentials
 Connect-AzAccount
